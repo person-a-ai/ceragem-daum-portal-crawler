@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Data Directories (대용량 크롤링 결과물 CSV 제외)
+data_csv/*.csv
+*/data_csv/*.csv
+overlap_data/*.csv
+*/overlap_data/*.csv
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
