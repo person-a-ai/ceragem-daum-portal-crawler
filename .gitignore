@@ -20,3 +20,9 @@ __pycache__/
 
 # Local tools
 dashboard.py
+
+# HTTP 크롤러: 글 캐시(SQLite), 저장 중 임시 파일
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.csv.tmp
