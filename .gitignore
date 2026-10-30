@@ -17,3 +17,6 @@ overlap_data/*.csv
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Local tools
+dashboard.py
